@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/material.schema.json",
+	"disabled": true,
+	"hammerstone:material_definition": {
+		"meta": {
+			"author": "SirLich"
+		},
+		"hammerstone:edge_decals": [
+			{
+				"identifier": "moaFur",
+				"texture_location_a": [
+
+				],
+				"texture_location_b": [
+
+				]
+			}
+		],
+		"hammerstone:materials": [
+			{
+				"identifier": "moa",
+				"color": [
+					0.233, 0.175, 0.156
+				]
+			},
+			{
+				"identifier": "moaDark",
+				"color": [
+					0.112, 0.108, 0.096
+				]
+			},
+			{
+				"identifier": "moaLight",
+				"color": [
+					0.34, 0.2295, 0.204
+				],
+				"b_material": {
+					
+				}
+			},
+			{
+				"identifier": "maoEye",
+				"color":[
+					0.40, 0.32, 0.05
+				],
+				"roughness": 0.03
+			},
+			{
+				"identifier": "moaFur",
+				"color":[
+					0.233, 0.175, 0.156
+				],
+				"roughness": 0.03
+			}
+		]
+	}
+}
