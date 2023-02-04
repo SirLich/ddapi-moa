@@ -12,6 +12,20 @@ local mod = {
 function mod:onload(gameObject)
     
 	gameObject:addGameObjectsFromTable({
+        deadMoa = {
+            name = locale:get("object_deadMoa"),
+            plural = locale:get("object_deadMoa_plural"),
+            modelName = "moaDead",
+            harvestableTypeIndex = harvestable.typeIndexMap.moa,
+            scale = 1.0,
+            hasPhysics = true,
+            markerPositions = {
+                { 
+                    worldOffset = vec3(0.0, mj:mToP(1.0), 0.0)
+                }
+            },
+        },
+        
         moaMeat = {
             name = locale:get("object_moaMeat"),
             plural = locale:get("object_moaMeat_plural"),
