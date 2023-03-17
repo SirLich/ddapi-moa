@@ -3,8 +3,8 @@
 	"hammerstone:object_definition": {
 		"description": {
 			"identifier": "moaMeat",
-			"name": "Moa Meat",
-			"plural": "Moa Meat"
+			"name": "object_moaMeat",
+			"plural": "object_moaMeat_plural"
 		},
 		"components": {
 			"hs_object": {
