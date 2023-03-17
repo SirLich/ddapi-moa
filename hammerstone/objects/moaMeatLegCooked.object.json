@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "moaMeatLegCooked",
+			"name": "Cooked Moa Leg",
+			"plural": "Cooked Moa Leg"
+		},
+		"components": {
+			"hs_object": {
+				"model": "moaMeatLegCooked"
+			},
+			"hs_evolving_object": {
+				"min_time": "5",
+				"category": "rot",
+				"transform_to": [
+					"bone"
+				]
+			},
+			"hs_food": {
+				"items_when_eaten": [
+					"bone"
+				]
+			},
+			"hs_resource": {
+				"link_to_resource": "moaMeat"
+			}
+		}
+	}
+}

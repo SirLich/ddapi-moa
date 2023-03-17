@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/recipe.schema.json",
+	"hammerstone:recipe_definition": {
+		"description": {
+			"identifier": "cookedMoa",
+			"name": "Craft Cooked Moa",
+			"plural": "Craft Cooked Moa",
+			"summary": "A healthy moa snack."
+		},
+		"meta": {
+			"author": "SirLich"
+		},
+		"components": {
+			"hs_recipe": {
+				"preview_object": "moaMeatLegCooked",
+				"classification": "craft",
+				"is_food_prep": true,
+				"disabled_until_craftable_researched": true
+			},
+			"hs_requirements": {
+				"skills": [
+					"campfireCooking"
+				],
+				"craft_area_groups": [
+					"campfire"
+				],
+				"resources": [
+					{
+						"resource": "moaMeat",
+						"count": 1
+					}
+				]
+			},
+			"hs_output": {
+				"output_by_object": [
+					{
+						"input": "moaMeat",
+						"output": [
+							"moaMeatCooked"
+						]
+					},
+					{
+						"input": "moaMeatLeg",
+						"output": [
+							"moaMeatLegCooked"
+						]
+					}
+				]
+			},
+			"hs_build_sequence": {
+				"resource_prop": {},
+				"action_sequence": "fireStickCook"
+			}
+		}
+	}
+}
