@@ -3,12 +3,22 @@
 	"hammerstone:object_definition": {
 		"description": {
 			"identifier": "moaMeatLegCooked",
-			"name": "Cooked Moa Leg",
-			"plural": "Cooked Moa Leg"
+			"name": "object_moaMeatCooked",
+			"plural": "object_moaMeatCooked_plural"
 		},
 		"components": {
 			"hs_object": {
-				"model": "moaMeatLegCooked"
+				"model": "moaMeatLeg",
+				"_custom_model": {
+					"base_model": "moaMeatLeg",
+					"model": "moaMeatLegCooked",
+					"material_remaps": [
+						{
+							"old_material": "moaMeat",
+							"new_material": "moaMeatCooked"
+						}
+					]
+				}			
 			},
 			"hs_evolving_object": {
 				"min_time": "5",

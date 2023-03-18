@@ -6,6 +6,12 @@
 			"name": "Moa Meat Storage"
 		},
 		"components": {
+			"hs_resources": {
+				"resources": [
+					"moaMeat",
+					"moaMeatCooked"
+				]
+			},
 			"hs_storage": {
 				"preview_object": "moaMeatLeg",
 				"size": [

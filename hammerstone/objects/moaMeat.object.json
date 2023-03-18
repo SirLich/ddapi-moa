@@ -17,9 +17,6 @@
 					"bone"
 				]
 			},
-			"hs_storage_link": {
-				"identifier": "moaMeat"
-			},
 			"hs_food": {
 				"portions": 4,
 				"value": 0.5,
