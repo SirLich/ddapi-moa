@@ -8,8 +8,7 @@
 		},
 		"components": {
 			"hs_object": {
-				"model": "moaMeatLeg",
-				"_custom_model": {
+				"custom_model": {
 					"base_model": "moaMeatLeg",
 					"model": "moaMeatLegCooked",
 					"material_remaps": [

@@ -2,36 +2,6 @@
     "hammerstone:global_definitions": {
         "hs_object_sets": [
             "moas"
-        ],
-		"hs_model_variations": [
-			{
-				"base_model": "moaMeat",
-				"variations": [
-					{
-						"model_name": "moaMeatCooked",
-						"material_remaps": [
-							{
-								"old_material": "moaMeat",
-								"new_material": "moaMeatCooked"
-							}
-						] 
-					}
-				]
-			},
-			{
-				"base_model": "moaMeatLeg",
-				"variations": [
-					{
-						"model_name": "moaMeatLegCooked",
-						"material_remaps": [
-							{
-								"old_material": "moaMeat",
-								"new_material": "moaMeatCooked"
-							}
-						] 
-					}
-				]
-			}
-		]
+        ]
     }
 }
