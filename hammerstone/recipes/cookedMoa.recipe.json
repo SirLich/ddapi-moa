@@ -12,7 +12,7 @@
 		},
 		"components": {
 			"hs_recipe": {
-				"preview_object": "moaMeatLegCooked",
+				"display_object": "moaMeatLegCooked",
 				"classification": "craft",
 				"is_food_prep": true,
 				"disabled_until_craftable_researched": true

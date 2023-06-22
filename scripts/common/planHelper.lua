@@ -7,8 +7,6 @@ local mod = {
 
 function mod:onload(planHelper)
     planHelper.huntPlanInfosByObjectType[gameObject.types.moa.index] = planHelper.spearHuntingInfo
-    
-    planHelper.availablePlansFunctionsByObjectType[gameObject.types.deadMoa.index] = planHelper.availablePlansForNonResourceCarcass
 end
 
 return mod
