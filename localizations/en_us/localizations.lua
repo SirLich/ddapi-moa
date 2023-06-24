@@ -1,8 +1,8 @@
 local localizations = {}
 
 localizations.values = {
-    mob_moa = "Moa",
-    mob_moa_plural = "Moa",
+    object_moa = "Moa",
+    object_moa_plural = "Moas",
 
     research_unlock_butcherMoa = "Butcher Moa",
 
