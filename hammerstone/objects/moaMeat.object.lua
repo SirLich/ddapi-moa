@@ -1,3 +1,5 @@
+-- Defines the 'moaMeat' resource and object. Can be eaten, and rot.
+
 return {
 	description = {
 		identifier = "moaMeat",

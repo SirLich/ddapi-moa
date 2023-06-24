@@ -1,3 +1,5 @@
+-- Defines the game object for the dead moa. Will rot, and can be harvested for the meat.
+
 return {
 	description = {
 		identifier = "deadMoa",
