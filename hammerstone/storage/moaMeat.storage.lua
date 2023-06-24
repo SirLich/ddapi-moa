@@ -1,7 +1,7 @@
 return {
 	description = {
 		identifier = "moaMeat",
-		name = "Moa Meat Storage"
+		name = "moa_storage"
 	},
 	components = {
 		hs_storage = {

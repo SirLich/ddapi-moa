@@ -12,15 +12,15 @@ function mod:onload(research)
     research.load = function(research_, gameObject, constructable, flora)
         prevLoad(research_, gameObject, constructable, flora)
 
-        research.types.butchery.orderTypeIndexesByBaseObjectTypeIndex[gameObject.types.deadMoa.index] = order.types.butcher.index
-        table.insert(research.types.butchery.additionalUnlocksToShowInBreakthroughUI, {
-            iconObjectTypeIndex = gameObject.types.moaMeatLeg.index,
-            text = locale:get("research_unlock_butcherMoa"),
-        })
+        -- research.types.butchery.orderTypeIndexesByBaseObjectTypeIndex[gameObject.types.deadMoa.index] = order.types.butcher.index
+        -- table.insert(research.types.butchery.additionalUnlocksToShowInBreakthroughUI, {
+        --     iconObjectTypeIndex = gameObject.types.moaMeatLeg.index,
+        --     text = locale:get("research_unlock_butcherMoa"),
+        -- })
 
-        research.types.campfireCooking.constructableTypeIndexesByBaseResourceTypeIndex[resource.types.moaMeat.index] = constructable.types.cookedMoa.index
-        table.insert(research.types.campfireCooking.resourceTypeIndexes, resource.types.moaMeat.index)
-        research:updateDerivedInfo(research.types.campfireCooking)
+        -- research.types.campfireCooking.constructableTypeIndexesByBaseResourceTypeIndex[resource.types.moaMeat.index] = constructable.types.moaMeatCooked.index
+        -- table.insert(research.types.campfireCooking.resourceTypeIndexes, resource.types.moaMeat.index)
+        -- research:updateDerivedInfo(research.types.campfireCooking)
     end
 end
 
