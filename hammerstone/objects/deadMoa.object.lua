@@ -8,7 +8,8 @@ return {
 	},
 	components = {
 		hs_object = {
-			model = "moaDead"
+			model = "moaDead",
+			snapping_preset = "deadMammoth"
 		},
 		hs_plans = {
 			available_plans = "availablePlansForNonResourceCarcass"
