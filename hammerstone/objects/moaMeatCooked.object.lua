@@ -44,14 +44,8 @@ return {
 			display_object = "moaMeatLegCooked",
 			hs_output = {
 				output_by_object = {
-					{
-						input = "moaMeat",
-						output = {"moaMeatCooked"}
-					},
-					{
-						input = "moaMeatLeg",
-						output = {"moaMeatLegCooked"}
-					}
+					moaMeat = {"moaMeatCooked"},
+					moaMeatLeg = {"moaMeatLegCooked"}
 				}
 			},
 			resources = {
