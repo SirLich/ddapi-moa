@@ -2,6 +2,9 @@ return {
     hs_object_sets = {
         "moas"
     },
+    hs_animation_groups = {
+        "moa"
+    },
     hs_model_remaps = {
         {
             model = "moaMeatCooked",
