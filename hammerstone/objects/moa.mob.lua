@@ -19,9 +19,9 @@ return {
 				},
 			}
 		},
-		-- hs_plans = {
-		-- 	available_plans = "availablePlansForMineableObjects"
-		-- },
+		hs_plans = {
+			hunting_preset = "basicHuntingInfo"
+		},
 		hs_mob = {
 			dead_object = "deadMoa",
 			animation_group = "moa",
