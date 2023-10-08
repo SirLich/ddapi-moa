@@ -23,6 +23,7 @@ return {
 			hunting_preset = "basicHuntingInfo"
 		},
 		hs_mob = {
+			emulate_ai = true,
 			dead_object = "deadMoa",
 			animation_group = "moa",
 			props = {
