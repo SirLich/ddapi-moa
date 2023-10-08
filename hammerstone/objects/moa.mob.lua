@@ -23,7 +23,10 @@ return {
 			hunting_preset = "basicHuntingInfo"
 		},
 		hs_mob = {
-			emulate_ai = true,
+			emulate_client_ai = true,
+			object_set = "moas", -- Annoying: This defaults to 'identifier', so if I had named the object set better it wouldn't be needed.
+			emulate_server_ai = true,
+
 			dead_object = "deadMoa",
 			animation_group = "moa",
 			props = {
